@@ -1,0 +1,32 @@
+.navbar{
+  height: 70px;
+  background-color: #003b49;
+  color: #ffffff;
+  position: relative;
+} 
+ 
+.logo{
+
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 18px;
+}
+.items ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 500px;
+}
+
+.items ul li{
+margin-top: -25px;
+margin-left: 30%;
+justify-content: center;
+} 
+.items ul li a{
+
+  font-size: 18px;
+  font-weight: 400;
+  color: #e7eacd;
+  text-decoration: none;
+} 

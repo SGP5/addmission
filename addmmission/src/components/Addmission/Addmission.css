@@ -1,0 +1,44 @@
+/* Add background color and padding to the form container */
+.colorful-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style form inputs and labels */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    padding: 3px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #2ecc71;
+  }
+  
+  /* Style radio buttons */
+  .form-check-input:checked {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+  }
+  
+  /* Style submit button */
+  .btn-primary {
+    background-color: #149abf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
